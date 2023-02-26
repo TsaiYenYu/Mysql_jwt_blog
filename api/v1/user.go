@@ -33,7 +33,6 @@ func AddUser(c *gin.Context) {
 	if code == errmsg.SUCCSE {
 		model.CreateUser(&data)
 	}
-
 	c.JSON(
 		http.StatusOK, gin.H{
 			"status":  code,

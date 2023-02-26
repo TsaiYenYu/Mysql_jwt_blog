@@ -1,6 +1,7 @@
 package model
 
 import (
+	"fmt"
 	"log"
 
 	"github.com/wejectchen/ginblog/utils/errmsg"
@@ -12,7 +13,7 @@ type User struct {
 	gorm.Model
 	Username string `gorm:"type:varchar(20);not null " json:"username" validate:"required,email" label:"用户名"`
 	Password string `gorm:"type:varchar(500);not null" json:"password" validate:"required,min=6,max=120" label:"密码"`
-	Role     int    `gorm:"type:int;DEFAULT:2" json:"role" validate:"required,gte=2" label:"角色码"`
+	Role     int    `gorm:"type:int;not null" json:"role" validate:"required" label:"角色码"`
 }
 
 // validate 年齡範圍gte=18,lte=30
@@ -42,7 +43,12 @@ func CheckUpUser(id int, name string) (code int) {
 // CreateUser 新增用户
 func CreateUser(data *User) int {
 	//data.Password = ScryptPw(data.Password)
+	fmt.Print("Brfeore CreateUser")
+	fmt.Print(data.Role)
+
 	err := db.Create(&data).Error
+	fmt.Print(data.Role)
+
 	if err != nil {
 		return errmsg.ERROR // 500
 	}
@@ -118,13 +124,13 @@ func DeleteUser(id int) int {
 	return errmsg.SUCCSE
 }
 
-// BeforeCreate 密码加密&权限控制
+// BeforeCreate 密码加密&权限控制 這個是gorm 的內部interface
 func (u *User) BeforeCreate(_ *gorm.DB) (err error) {
 	u.Password = ScryptPw(u.Password)
-	u.Role = 2
 	return nil
 }
 
+// 這個是gorm 的內部interface
 func (u *User) BeforeUpdate(_ *gorm.DB) (err error) {
 	u.Password = ScryptPw(u.Password)
 	return nil

@@ -1,9 +1,9 @@
-time="2023-02-15T14:49:47+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=66 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="0 ms" status=200
-time="2023-02-15T14:49:49+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=66 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="0 ms" status=200
-
-time="2023-02-15T14:46:55+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=66 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="1 ms" status=200
-ime="2023-02-15T14:25:31+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=58 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="0 ms" status=200
-time="2023-02-15T14:27:34+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=29 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="99 ms" status=200
+time="2023-02-24T19:15:42+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=29 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="100 ms" status=200
+ime="2023-02-24T19:04:42+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=29 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="98 ms" status=200
+0
+me="2023-02-24T18:44:25+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=51 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="0 ms" status=200
+time="2023-02-24T18:44:39+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=29 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="100 ms" status=200
+="2023-02-15T14:27:34+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=29 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="99 ms" status=200
 time="2023-02-15T14:28:23+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=58 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="0 ms" status=200
  SpendTime="1 ms" status=200
 time="2023-02-14T14:00:33+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=141 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/location/add SpendTime="1 ms" status=200

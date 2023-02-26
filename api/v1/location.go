@@ -27,7 +27,7 @@ func AddLocation(c *gin.Context) {
 	)
 }
 
-// GetCateInfo 查询分类信息
+// GetCateInfo 查询分类信息 by id
 func GetLocationInfo(c *gin.Context) {
 	id, _ := strconv.Atoi(c.Param("id"))
 

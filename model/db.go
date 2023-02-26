@@ -2,13 +2,14 @@ package model
 
 import (
 	"fmt"
+	"os"
+	"time"
+
 	"github.com/wejectchen/ginblog/utils"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
-	"os"
-	"time"
 )
 
 var db *gorm.DB
