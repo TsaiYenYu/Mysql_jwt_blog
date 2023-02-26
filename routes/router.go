@@ -121,6 +121,10 @@ func InitRouter() {
 		//取得活動資料
 		router.GET("event/:id", v1.GetEventInfo)
 		router.GET("event", v1.GetEvent)
+
+		//取得預約資料
+		router.GET("reservation/:id", v1.GetReservationInfo)
+		router.GET("reservation/", v1.GetReservation)
 	}
 
 	_ = r.Run(utils.HttpPort)

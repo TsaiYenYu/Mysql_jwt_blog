@@ -1,8 +1,7 @@
-time="2023-02-24T19:15:42+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=29 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="100 ms" status=200
-ime="2023-02-24T19:04:42+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=29 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="98 ms" status=200
-0
-me="2023-02-24T18:44:25+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=51 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="0 ms" status=200
-time="2023-02-24T18:44:39+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=29 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="100 ms" status=200
+time="2023-02-26T20:43:22+08:00" level=warning Agent=PostmanRuntime/7.29.2 DataSize=0 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/reservation SpendTime="0 ms" status=404
+time="2023-02-26T20:43:30+08:00" level=warning Agent=PostmanRuntime/7.29.2 DataSize=0 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/reservation SpendTime="0 ms" status=404
+time="2023-02-26T20:43:50+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=235 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=GET Path=/api/v1/reservation/ SpendTime="2 ms" status=200
+18:44:39+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=29 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="100 ms" status=200
 ="2023-02-15T14:27:34+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=29 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="99 ms" status=200
 time="2023-02-15T14:28:23+08:00" level=info Agent=PostmanRuntime/7.29.2 DataSize=58 HostName=caiyanyoudeMac-mini.local Ip=127.0.0.1 Method=POST Path=/api/v1/user/add SpendTime="0 ms" status=200
  SpendTime="1 ms" status=200
